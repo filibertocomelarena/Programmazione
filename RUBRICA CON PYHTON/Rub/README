@@ -1,0 +1,86 @@
+=========================================================================
+ISTRUZIONI per il PRIMO ASSEGNAMENTO aa 2021/22
+========================================================================
+L'assegnamento prevede la realizzazione di una classe Rubrica
+come specificato nel file rubrica.pdf.
+
+Come procedere:
+(1) realizzare i metodi la cui intestazione si trova nel file rubrica.py
+    (seguendo le indicazioni dei commenti in corrispondenza di ciascun metodo)
+    e testarli opportunamente
+(2) eseguire i test nel file maintest.py fornito dai docenti (senza modificarlo)
+    per effettuare questo test sia maintest.py che rubrica.py
+    si devono trovare nella stessa cartella)
+(3) se tutti i test vengono superati (Pass) preparare il file rubrica.py per
+    la consegna inserendo nome cognome e contatti dei componenti del gruppo
+    nell'intestazione.
+(4) consegnare inviando il file PyCharm (o txt) rubrica.py (ed eventuali file
+    aggiuntivi -- vedi istruzioni sotto) a
+            susanna.pelagatti@unipi.it
+    con oggetto "622aa 21/22: consegna primo assegnamento"
+
+------------------------------------------------
+Cosa contiene questa cartella Google Drive
+------------------------------------------------
+
+rubrica.pdf		: file contenente la descrizione dell'assegnamento
+
+rubrica.py 		: file che contiene la definizione dei metodi da realizzare
+
+maintest.py     : file con i test finali (NON MODIFICARE)
+
+README			: questo file
+
+
+========================================================================
+ALCUNI SUGGERIMENTI per la realizzazione dell'assegnamento
+========================================================================
+
+Conviene realizzare i metodi richiesti seguendo le specifiche nei commenti e
+analizzando la struttura dei test del file maintest.py che usano la testEqual()
+usata durante il corso.
+Durante lo sviluppo e' consigliato non usare immediatamente i test in maintest.py
+per non avere risultati complessi e di difficile interpretazione. Consigliamo invece
+di ispiraresi a maintest.py per creare dei test propri che permettano di
+verificare il funzionamento dei metodi passo passo durante la realizzazione
+secondo il principio del debug incrementale spesso citato a lezione.
+
+Quando si è ragionevolmente sicuri della correttezza di quanto realizzato, passare a test finali
+in maintest.py.
+Questi ultimi test verificano le funzionalità basilari dei metodi richiesti stampando
+il risultato a video. Se tutti i test sono superati lo studente viene invitato
+a effettuare la consegna altrimenti si stampa il numero di test falliti.
+
+E' possibile aggiungere test, che vanno realizzati in un file di nome "moreTest.py"
+da consegnare insieme a rubrica.py.
+
+Se lo si desidera è possibile aggingere metodi alla classe Rubrica, tuttavia
+per i metodi aggiuntivi devono essere fornite specifiche chiare
+del funzionamento (nei commenti) e test di funzionamento adeguati
+ (nel file "moreTest.py")
+
+ NOTE IMPORTANTI: LEGGERE ATTENTAMENTE
+---------------------------------------
+
+1) tutti gli elaborati verranno confrontati fra di loro con tool automatici
+   per stabilire eventuali situazioni di PLAGIO. Se gli elaborato sono
+   ragionevolmente simili verranno scartati.
+
+2) Chi in sede di orale risulta palesemente non essere l'autore del software
+   consegnato in uno degli assegnamenti dovra' ripetere l'esame con
+   un nuovo progetto
+
+3) Tutti i comportamenti scorretti ai punti 1 e 2 verranno segnalati
+   ufficialmente al presidente del corso di laurea
+
+----------------------------
+ VALUTAZIONE DELL'ASSEGNAMENTO:
+----------------------------
+
+Gli studenti che consegnano una versione funzionante e ragionevolmente
+corretta dell'assegnamento entro la data di scadenza accumulano un bonus di 2
+punti che verra' sommato al voto finale
+
+La qualita' del codice consegnato per i due assegnamenti
+sara' valutata complessivamente da 0 a 30 e fara' media
+con il voto dell'esame orale.
